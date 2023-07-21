@@ -6,16 +6,16 @@
   "scripts": {
     "setup_env": "npm install && npm install --prefix client",
     "admin": "node admin add",
-    "start": "node .",
+    "start": "node init && node .",
     "server": "NODE_ENV=development nodemon . --config nodemon.json",
-    "build:client": "npm run build --prefix client",
+    "build:client": "node init && npm run build --prefix client",
     "prod_setup": "npm run build:client",
-    "start:dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start:dev": "node init && concurrently \"npm run server\" \"npm run client\"",
     "client": "npm run serve --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "node init && concurrently \"npm run server\" \"npm run client\"",
     "test": "jest --detectOpenHandles --runInBand ./tests",
     "ci_test": "NODE_ENV=production npm run test",
-    "start:prod": "NODE_ENV=production npm start"
+    "start:prod": "node init && NODE_ENV=production npm start"
   },
   "jest": {
     "testEnvironment": "node"
