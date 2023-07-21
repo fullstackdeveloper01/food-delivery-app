@@ -117,7 +117,6 @@ Simple food ordering website Using VueJS, firebase, NodeJS and MongoDB.
       >> npm run Client // to start Vue Development server only (But it will not working alone as api depends on Backend also)
 
      ```
-
 4. **Admin Setup**
    - Run this Command on root directory
      ```
