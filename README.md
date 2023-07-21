@@ -14,9 +14,7 @@ Simple food ordering website Using VueJS, firebase, NodeJS and MongoDB.
     - Expiry: `Any Future Month`
     - CVV: `Any three Digit Number`
 - #### Github Repository [link](https://github.com/fullstackdeveloper01/food-delivery-app).
-
 ---
-
 ### Technology and Modules used for this Project
 
 1. `Node JS Express Framework` is used as a building Backend part of this Website.
@@ -41,11 +39,11 @@ Simple food ordering website Using VueJS, firebase, NodeJS and MongoDB.
 
 2. **Credentials Setup**
 
-   - Create a `MongoDB Atlas` Account for Host this Project Online. Find Tutorials [here](https://www.youtube.com/watch?v=KKyag6t98g8).
-   - Setup a `Firebase Project` for using `Firestore and Authentication`. Find Tutorials [here](https://www.youtube.com/watch?v=6juww5Lmvgo).
-   - Setup [Firestore](https://www.youtube.com/watch?v=UFLvSp4Mh9k&list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB&index=2) and [Enable Authenitaion Methods](https://www.youtube.com/watch?v=-OKrloDzGpU)
-   - Generate `Private keys for Firebase Admin`. Find tutorials [here](https://youtu.be/WtYzHTXHBp0).
-   - Setup `RazorPay` Payment Method on our Website. Find Tutorials [here](https://www.youtube.com/watch?v=nGZbqT4lb_g)
+   - Create a `MongoDB Atlas` Account for Host this Project Online. 
+   - Setup a `Firebase Project` for using `Firestore and Authentication`.
+   - Setup [Firestore]and [Enable Authenitaion Methods]
+   - Generate `Private keys for Firebase Admin`.
+   - Setup `RazorPay` Payment Method on our Website. 
 
 3. **Project Setup**
 
